@@ -306,7 +306,10 @@ async def validate_checkout_router (
     if not memory_cart:
         return JSONResponse(
             status_code = status.HTTP_400_BAD_REQUEST,
-            content={"detail":"No items available in cart for checkout.", "errors": errors}
+            content={"detail":"No items available in cart for checkout.", "errors": errors, "cart_info": {
+                    "cart_items": memory_cart,
+                    "total_price": cart.total_price
+                 }}
         )
 
     return JSONResponse(
