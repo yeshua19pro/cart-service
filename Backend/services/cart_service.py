@@ -44,17 +44,16 @@ async def recalc_cart_total(cart, memory_cart):
 
 
 async def get_book_data(book_id: str):
-    response = ""
-    params = {
-        "x_internal_action_token": settings.INTERNAL_ACTION_TOKEN
+    headers = {
+        "x-internal-action-token": settings.INTERNAL_ACTION_TOKEN
     }
     async with httpx.AsyncClient() as client:
         response = await client.get(
             f"{settings.INVENTORY_SERVICE_URL}/inventory/check-book-coms/{book_id}",
-            params=params
+            headers=headers
         )
-
     return response.json() or None
+
 
 
 def create_access_token(data: dict, expires_minutes: int = 60) -> str: # JWT creation, dictionaries, hashmaps

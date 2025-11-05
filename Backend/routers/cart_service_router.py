@@ -14,17 +14,26 @@ import random
 from utils.time import utc_now, utc_return_time_cast # Router functions for lesser verbouse text
 
 
-router = APIRouter(prefix="/cart", tags=["Cart"]) # All endpoints will start with /catalog and tagged as Catalogs
+router = APIRouter(prefix="/cart", tags=["Cart"]) # All endpoints will start with /cart and tagged as Cart
 
 
 def parse_book_data(book_data: dict) -> dict:
-    book = book_data.get("book", {})
+    if not book_data:
+        return {}
+
+    if "book" in book_data:
+        book = book_data["book"]
+    else:
+        book = book_data
+
     return {
-        "book_name": book.get("book_name"),
+        "book_name": book.get("book_name") or book.get("name"),
         "author": book.get("author"),
-        "price": book.get("price", 0),
-        "stock": book.get("stock", 0),
+        "price": float(book.get("price", 0)),
+        "stock": int(book.get("stock", 0)),
     }
+
+
 
 
 @router.get("/cart", status_code = status.HTTP_200_OK, include_in_schema=True) 

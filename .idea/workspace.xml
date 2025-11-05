@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d257a0e8-7bc0-443a-900a-491d43e5c11c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Frontend/cart-service/src/app/api/cart/[book_id]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/cart-service/src/app/api/cart/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/cart-service/src/app/api/cart/validate-checkout/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/cart-service/src/app/cart/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/versions/825e0a7f4cd3_cart_service_structure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/limiter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/security.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/models/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/models/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/cart_service_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/inventory_service_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/cart_service_router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/cart_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/time.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JoseDanielCU&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yeshua19pro/cart-service.git&quot;,
+    &quot;accountId&quot;: &quot;f54c361a-edbd-4573-8edf-091a1d04b106&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="34j8NWSr1mODGTY9Ndv7x3IemsL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/MLGda/Downloads/cart-service/Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\MLGda\\Downloads\\cart-service\\Frontend\\cart-service\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MLGda\Downloads\cart-service\Backend" />
+      <recent name="C:\Users\MLGda\Downloads\cart-service\Frontend\cart-service" />
+      <recent name="C:\Users\MLGda\Downloads\cart-service\Frontend\cart-service\src\app\cart" />
+      <recent name="C:\Users\MLGda\Downloads\cart-service\Frontend\cart-service\src\app\api\cart\validate-checkout" />
+      <recent name="C:\Users\MLGda\Downloads\cart-service\Frontend\cart-service\src\app\api\cart\[book_id]" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d257a0e8-7bc0-443a-900a-491d43e5c11c" name="Changes" comment="" />
+      <created>1761715582137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761715582137</updated>
+      <workItem from="1761715584323" duration="231000" />
+      <workItem from="1761715829497" duration="120000" />
+      <workItem from="1762212034058" duration="655000" />
+      <workItem from="1762236969663" duration="1338000" />
+      <workItem from="1762292441043" duration="6630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
